@@ -2,59 +2,625 @@
 <html>
     <head>
         <title>title</title>
+        <meta charset="utf-8">
         <link href="themes/frontend/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="themes/frontend/css/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <!-- Header Start -->
         <div class="header">
-            
+            <div class="logo text-uppercase">Sample Logo</div>
         </div>
         <!-- Header End -->
-        
-        
+
+        <!-- Navbar Start -->
+        <section class="main-nav">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Brand</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">Link</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Link</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </section>
+        <!-- Navbar End -->
+
         <!-- Slider Start -->
         <div class="slider">
-            
+            <div class="container-fluid">
+                <div class="col-md-2 col-xs-6 item">
+                    <header>
+                        <img class="img-responsive" src="themes/frontend/img/Brasil21.jpg" alt=""/>
+                        <a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting</a>
+                    </header>
+                </div>
+                <div class="col-md-2 col-xs-6 item">
+                    <header>
+                        <img class="img-responsive" src="themes/frontend/img/sanfrancisco2.jpg" alt=""/>
+                        <a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting</a>
+                    </header>
+                </div>
+                <div class="col-md-2 col-xs-6 item">
+                    <header>
+                        <img class="img-responsive" src="themes/frontend/img/messico1.jpg" alt=""/>
+                        <a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting</a>
+                    </header>
+                </div>
+                <div class="col-md-2 col-xs-6 item">
+                    <header>
+                        <img class="img-responsive" src="themes/frontend/img/maldives1.jpg" alt=""/>
+                        <a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting</a>
+                    </header>
+                </div>
+                <div class="col-md-2 col-xs-6 item">
+                    <header>
+                        <img class="img-responsive" src="themes/frontend/img/china1.jpg" alt=""/>
+                        <a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting</a>
+                    </header>
+                </div>
+                <div class="col-md-2 col-xs-6 item">
+                    <header>
+                        <img class="img-responsive" src="themes/frontend/img/Canada1.jpg" alt=""/>
+                        <a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting</a>
+                    </header>
+                </div>
+            </div>
         </div>
         <!-- Slider End -->
-        
+
         <!-- Promote Start -->
-        <div class="promote">
-            
-        </div>
+        <section class="promote gray">
+            <div class="container">
+                <div class="title_b">
+                    <div class="title_f text-uppercase pull-left">
+                        Khuyến mãi <span class="text-success">Hot</span>
+                    </div>
+                    <div class="tab_f">
+                        <ul class="list-inline pull-left">
+                            <li><a href="#">Tour</a></li>
+                            <li><a href="#">Vé máy bay</a></li>
+                            <li><a href="#">Tàu Du lịch</a></li>
+                            <li><a href="#">Vé Tàu</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-xs-6 item">
+                        <div class="inner">
+                            <header>
+                                <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/doanhnghiep/delta_airlines_logo.gif" alt=""/>
+                            </header>
+                            <footer>
+                                <p class="text-center">Hà Nội - Tp. Hồ Chí Minh<br /><small>Một chiều</small></p>
+                                <hr />
+                                <p class="text-success text-center pricing">2.050<sup><small>.000đ</small></sup></p>
+                                <hr />
+                                <div class="row text-center time">
+                                    <div class="col-md-6">
+                                        <p class="take-off">Take Off<br />
+                                            <span>07:30 AM</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="lading">
+                                            Landing <br />
+                                            <span>09:30 AM</span>
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-block btn-success">Đặt vé ngay</a>
+                            </footer>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 item">
+                        <div class="inner">
+                            <header>
+                                <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/doanhnghiep/northwest_airlines_logo_2557.gif" alt=""/>
+                            </header>
+                            <footer>
+                                <p class="text-center">Hà Nội - Tp. Hồ Chí Minh<br /><small>Một chiều</small></p>
+                                <hr />
+                                <p class="text-success text-center pricing">2.050<sup><small>.000đ</small></sup></p>
+                                <hr />
+                                <div class="row text-center time">
+                                    <div class="col-md-6">
+                                        <p class="take-off">Take Off<br />
+                                            <span>07:30 AM</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="lading">
+                                            Landing <br />
+                                            <span>09:30 AM</span>
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-block btn-success">Đặt vé ngay</a>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 item">
+                        <div class="inner">
+                            <header>
+                                <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/doanhnghiep/images (7).jpg" alt=""/>
+                            </header>
+                            <footer>
+                                <p class="text-center">Hà Nội - Tp. Hồ Chí Minh<br /><small>Một chiều</small></p>
+                                <hr />
+                                <p class="text-success text-center pricing">2.050<sup><small>.000đ</small></sup></p>
+                                <hr />
+                                <div class="row text-center time">
+                                    <div class="col-md-6">
+                                        <p class="take-off">Take Off<br />
+                                            <span>07:30 AM</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="lading">
+                                            Landing <br />
+                                            <span>09:30 AM</span>
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-block btn-success">Đặt vé ngay</a>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 item">
+                        <div class="inner">
+                            <header>
+                                <img  class="img-responsive img-rounded img-thumbnail"  src="themes/frontend/img/doanhnghiep/images (8).jpg" alt=""/>
+                            </header>
+                            <footer>
+                                <p class="text-center">Hà Nội - Tp. Hồ Chí Minh<br /><small>Một chiều</small></p>
+                                <hr />
+                                <p class="text-success text-center pricing">2.050<sup><small>.000đ</small></sup></p>
+                                <hr />
+                                <div class="row text-center time">
+                                    <div class="col-md-6">
+                                        <p class="take-off">Take Off<br />
+                                            <span>07:30 AM</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="lading">
+                                            Landing <br />
+                                            <span>09:30 AM</span>
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-block btn-success">Đặt vé ngay</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Promote End -->
-        
-        <!-- Organization Start -->
-        <div class="organization">
-            
-        </div>
-        <!-- Organization End -->
-        
+
         <!-- Tour HOT End-->
-        <div class="tourhot">
-            
-        </div>
-        <!-- Tour HOT End -->
-        
+        <section class="tourhot">
+            <div class="container">
+                <div class="title_b">
+                    <div class="title_f text-uppercase pull-left">
+                        Top các tour <span class="text-success">Hot Nhất</span>
+                    </div>
+                    <div class="tab_f">
+                        <ul class="list-inline pull-left">
+                            <li><a href="#">Trong nước</a></li>
+                            <li><a href="#">Ngoài nước</a></li>
+                            <li><a href="#">Rẻ nhất</a></li>
+                            <li><a href="#">Gotadi</a></li>
+                        </ul>
+                    </div>
+
+                </div> 
+                <div class="row">
+                    <div class="col-sm-9 left">
+                        <ul class="list-unstyled">
+                            <li class="row">
+                                <div class="col-md-2 col-xs-5">
+                                    <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/maldives1.jpg" alt=""/> 
+                                </div>
+
+                                <div class="col-md-10 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <a href="#">FNE Đà Nẵng - Thành phố của những cây cầu</a>
+                                            <p>Chọn mua gói sản phẩm FNE Đà Nẵng, khách sẽ có 6 lựa chọn điểm lưu trú cho hành trình khám phá Đà Nẵng 3 ngày 2 đêm.</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <span class="pricing text-success">15.050.000<sup> đ</sup></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="row">
+                                <div class="col-md-2 col-xs-5">
+                                    <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/china1.jpg" alt=""/> 
+                                </div>
+
+                                <div class="col-md-10 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <a href="#">FNE Đà Nẵng - Thành phố của những cây cầu</a>
+                                            <p>Chọn mua gói sản phẩm FNE Đà Nẵng, khách sẽ có 6 lựa chọn điểm lưu trú cho hành trình khám phá Đà Nẵng 3 ngày 2 đêm.</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <span class="pricing text-success">15.050.000<sup> đ</sup></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="row">
+                                <div class="col-md-2 col-xs-5">
+                                    <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/maldives1.jpg" alt=""/> 
+                                </div>
+
+                                <div class="col-md-10 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <a href="#">FNE Đà Nẵng - Thành phố của những cây cầu</a>
+                                            <p>Chọn mua gói sản phẩm FNE Đà Nẵng, khách sẽ có 6 lựa chọn điểm lưu trú cho hành trình khám phá Đà Nẵng 3 ngày 2 đêm.</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <span class="pricing text-success">15.050.000<sup> đ</sup></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="row">
+                                <div class="col-md-2 col-xs-5">
+                                    <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/china1.jpg" alt=""/> 
+                                </div>
+
+                                <div class="col-md-10 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <a href="#">FNE Đà Nẵng - Thành phố của những cây cầu</a>
+                                            <p>Chọn mua gói sản phẩm FNE Đà Nẵng, khách sẽ có 6 lựa chọn điểm lưu trú cho hành trình khám phá Đà Nẵng 3 ngày 2 đêm.</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <span class="pricing text-success">15.050.000<sup> đ</sup></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="row">
+                                <div class="col-md-2 col-xs-5">
+                                    <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/maldives1.jpg" alt=""/> 
+                                </div>
+
+                                <div class="col-md-10 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <a href="#">FNE Đà Nẵng - Thành phố của những cây cầu</a>
+                                            <p>Chọn mua gói sản phẩm FNE Đà Nẵng, khách sẽ có 6 lựa chọn điểm lưu trú cho hành trình khám phá Đà Nẵng 3 ngày 2 đêm.</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <span class="pricing text-success">15.050.000<sup> đ</sup></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="row">
+                                <div class="col-md-2 col-xs-5">
+                                    <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/sanfrancisco2.jpg" alt=""/> 
+                                </div>
+
+                                <div class="col-md-10 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <a href="#">FNE Đà Nẵng - Thành phố của những cây cầu</a>
+                                            <p>Chọn mua gói sản phẩm FNE Đà Nẵng, khách sẽ có 6 lựa chọn điểm lưu trú cho hành trình khám phá Đà Nẵng 3 ngày 2 đêm.</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <span class="pricing text-success">15.050.000<sup> đ</sup></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="row">
+                                <div class="col-md-2 col-xs-5">
+                                    <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/Canada1.jpg" alt=""/> 
+                                </div>
+
+                                <div class="col-md-10 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <a href="#">FNE Đà Nẵng - Thành phố của những cây cầu</a>
+                                            <p>Chọn mua gói sản phẩm FNE Đà Nẵng, khách sẽ có 6 lựa chọn điểm lưu trú cho hành trình khám phá Đà Nẵng 3 ngày 2 đêm.</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <span class="pricing text-success">15.050.000<sup> đ</sup></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="row">
+                                <div class="col-md-2 col-xs-5">
+                                    <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/maldives1.jpg" alt=""/> 
+                                </div>
+
+                                <div class="col-md-10 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <a href="#">FNE Đà Nẵng - Thành phố của những cây cầu</a>
+                                            <p>Chọn mua gói sản phẩm FNE Đà Nẵng, khách sẽ có 6 lựa chọn điểm lưu trú cho hành trình khám phá Đà Nẵng 3 ngày 2 đêm.</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <span class="pricing text-success">15.050.000<sup> đ</sup></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="row">
+                                <div class="col-md-2 col-xs-5">
+                                    <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/messico1.jpg" alt=""/> 
+                                </div>
+
+                                <div class="col-md-10 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <a href="#">FNE Đà Nẵng - Thành phố của những cây cầu</a>
+                                            <p>Chọn mua gói sản phẩm FNE Đà Nẵng, khách sẽ có 6 lựa chọn điểm lưu trú cho hành trình khám phá Đà Nẵng 3 ngày 2 đêm.</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <span class="pricing text-success">15.050.000<sup> đ</sup></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="row">
+                                <div class="col-md-2 col-xs-5">
+                                    <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/sanfrancisco2.jpg" alt=""/> 
+                                </div>
+
+                                <div class="col-md-10 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <a href="#">FNE Đà Nẵng - Thành phố của những cây cầu</a>
+                                            <p>Chọn mua gói sản phẩm FNE Đà Nẵng, khách sẽ có 6 lựa chọn điểm lưu trú cho hành trình khám phá Đà Nẵng 3 ngày 2 đêm.</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <span class="pricing text-success">15.050.000<sup> đ</sup></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/banner.png" alt=""/>
+                        <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/banner.png" alt=""/>
+                        <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/banner.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Tour HOT End -->    
+
+        <!-- Organization Start -->
+        <section class="organization">
+            <div class="container">
+                <div class="title_b">
+                    <div class="title_f text-uppercase pull-left">
+                        Thông tin <span class="text-success">Doanh nghiệp</span>
+                    </div>
+                    <div class="tab_f">
+                        <ul class="list-inline pull-left">
+                            <li><a href="#">Tour</a></li>
+                            <li><a href="#">Vé máy bay</a></li>
+                            <li><a href="#">Tàu Du lịch</a></li>
+                            <li><a href="#">Vé Tàu</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 side">
+                        <img class="img-responsive img-rounded img-thumbnail" src="http://designshack.net/wp-content/uploads/amairlines-0.jpg" alt=""/>
+                    </div>
+                    <div class="col-md-8 side">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/doanhnghiep/delta_airlines_logo.gif" alt=""/>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/doanhnghiep/images (1).jpg" alt=""/>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/doanhnghiep/images (10).jpg" alt=""/>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/doanhnghiep/images (11).jpg" alt=""/>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/doanhnghiep/images (2).jpg" alt=""/>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/doanhnghiep/images (3).jpg" alt=""/>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/doanhnghiep/images (4).jpg" alt=""/>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-responsive img-rounded img-thumbnail" src="themes/frontend/img/doanhnghiep/images (5).jpg" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Organization End -->
+
         <!-- Popular Place Start -->
-        <div class="popular-place">
-            
-        </div>
+        <section class="popular-place black">
+            <div class="container">
+                <h3 class="title_a">ĐIỂM ĐẾN PHỔ BIẾN</h3>
+                <div class="row margin-b-10">
+                    <div class="col-md-3 regional">
+                        Việt nam
+                    </div>
+                    <div class="col-md-3 static">
+                        <a href="" class="box-100 box-block box-color box-1f8a70">
+                            Miền Bắc
+                        </a>
+                    </div>
+                    <div class="col-md-3 static">
+                        <a href="" class="box-100 box-block box-color box-bfdb39">
+                            Miền Trung
+                        </a>
+                    </div>
+                    <div class="col-md-3 static">
+                        <a href="" class="box-100 box-block box-color box-fd7400">
+                            Miền Nam
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="content">
+                    
+                </div>
+            </div>
+            <div class="container">
+                <div class="row margin-b-10">
+                    <div class="col-md-3 regional">
+                        Thế giới
+                    </div>
+                    <div class="col-md-3 static">
+                        <a href="" class="box-100 box-block box-color box-1f8a70">
+                            Châu Á
+                        </a>
+                    </div>
+                    <div class="col-md-3 static">
+                        <a href="" class="box-100 box-block box-color box-bfdb39">
+                            Châu Mỹ
+                        </a>
+                    </div>
+                    <div class="col-md-3 static">
+                        <a href="" class="box-100 box-block box-color box-fd7400">
+                            Châu Âu
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="content">
+                    
+                </div>
+            </div>
+            <div class="container">
+                <div class="row margin-b-10">
+                    <div class="col-md-3 regional">
+                        Asean
+                    </div>
+                    <div class="col-md-3 static">
+                        <a href="" class="box-100 box-block box-color box-1f8a70">
+                            Singapore
+                        </a>
+                    </div>
+                    <div class="col-md-3 static">
+                        <a href="" class="box-100 box-block box-color box-bfdb39">
+                            Philipines
+                        </a>
+                    </div>
+                    <div class="col-md-3 static">
+                        <a href="" class="box-100 box-block box-color box-fd7400">
+                            Brunei
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="content">
+                    
+                </div>
+            </div>
+        </section>
         <!-- Popular Place End -->
-        
+
         <!-- Gallery -->
-        <div class="gallery">
-            
-        </div>
+        <section class="gallery">
+
+        </section>
         <!-- Gallery End -->
-       
+
         <!-- Footer -->
-        <div class="footer">
-            
-        </div>
+        <section class="footer" style="height: 1000px;">
+
+        </section>
         <!-- Footer End -->
-        
+
         <script src="themes/frontend/js/jquery-1.11.2.min.js" type="text/javascript"></script>
         <script src="themes/frontend/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="themes/frontend/js/application.js" type="text/javascript"></script>

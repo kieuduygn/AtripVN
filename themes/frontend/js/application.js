@@ -4,4 +4,11 @@
  * and open the template in the editor.
  */
 
-
+$(document).ready(function(){
+   
+   $('.popular-place .box-color').click(function(e){
+       e.preventDefault();
+        console.log($(this).closest('.container'));
+       $(this).closest('.container').next('.container-fluid').find('.content').slideToggle();
+   });
+});
